@@ -3,11 +3,7 @@ import streamlit as st
 import requests, json
 from web3 import Web3
 import pandas as pd
-# Most expensive NFT
-# Slider for specify the range of price 
-# Add the bundles as Endpoint => done
-# ##on sale as filter
-# ##owner as filter
+
 
 st.sidebar.header("Endpoints")
 endpoint_choices = ['Most Expnsive NFT','Price', 'Assets', 'Events', 'Rarity', 'Bundles']
